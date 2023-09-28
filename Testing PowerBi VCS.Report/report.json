@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.47\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.48\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "config": "{\"version\":\"5.47\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.48\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
   "layoutOptimization": 0,
   "resourcePackages": [
     {
@@ -27,12 +27,12 @@
       "name": "ReportSection",
       "visualContainers": [
         {
-          "config": "{\"name\":\"bd4f3d4a8595e3507010\",\"layouts\":[{\"id\":0,\"position\":{\"x\":77.1859296482412,\"y\":112.1608040201005,\"z\":0,\"width\":537.8894472361809,\"height\":489.6482412060301,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Sheet2.Offering or Release\"},{\"queryRef\":\"Sheet2.Parent Offering Project\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet2\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Offering or Release\"},\"Name\":\"Sheet2.Offering or Release\",\"NativeReferenceName\":\"Offering or Release\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Parent Offering Project\"},\"Name\":\"Sheet2.Parent Offering Project\",\"NativeReferenceName\":\"Parent Offering Project\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"bd4f3d4a8595e3507010\",\"layouts\":[{\"id\":0,\"position\":{\"x\":76.77857740585775,\"y\":112.4257740585774,\"z\":0,\"width\":994.0083682008368,\"height\":489.46343096234307,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Sheet2.Offering or Release\"},{\"queryRef\":\"Sheet2.Parent Offering Project\"},{\"queryRef\":\"Sheet2.a\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet2\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Offering or Release\"},\"Name\":\"Sheet2.Offering or Release\",\"NativeReferenceName\":\"Offering or Release\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Parent Offering Project\"},\"Name\":\"Sheet2.Parent Offering Project\",\"NativeReferenceName\":\"Parent Offering Project\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"a\"},\"Name\":\"Sheet2.a\",\"NativeReferenceName\":\"a\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
-          "height": 489.65,
-          "width": 537.89,
-          "x": 77.19,
-          "y": 112.16,
+          "height": 489.46,
+          "width": 994.01,
+          "x": 76.78,
+          "y": 112.43,
           "z": 0.00
         }
       ],

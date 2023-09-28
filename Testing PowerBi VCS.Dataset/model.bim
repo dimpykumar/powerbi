@@ -104,6 +104,14 @@
           }
         ],
         "lineageTag": "a89ca453-f463-4b82-b197-f5b963d9c7b3",
+        "measures": [
+          {
+            "name": "a",
+            "expression": "1",
+            "formatString": "0",
+            "lineageTag": "91aaa7cf-e750-4add-87ee-85ad97382910"
+          }
+        ],
         "partitions": [
           {
             "name": "Sheet2",
